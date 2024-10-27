@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./output.css" rel="stylesheet">
+    <title>Influencer Products</title>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="flex justify-evenly md:justify-between items-center">
+                <div id="hamburger" class="lg:hidden z-40">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="py-6">
+                    <a href="#" class="text-2xl font-bold text-color-primary">Influencer<span class="text-black">products</span></a>
+                </div>
+                <ul class="lg:flex items-center space-x-6 text-lg hidden">
+                    <li><a href="#home" class="hover:text-color-primary ease-in duration-200 ">Home</a></li>
+                    <li><a href="#products" class="hover:text-color-primary ease-in duration-200 ">Products</a></li>
+                    <li><a href="#sing-up" class="hover:text-color-primary ease-in duration-200 ">Sing up</a></li>
+                    <li><a href="#log-in" class="hover:text-color-primary ease-in duration-200">Log in</a></li>
+                    <li><i class="fa-solid fa-magnifying-glass "></i></li>
+                    <li><i class="fa-solid fa-cart-shopping"></i></li>
+                </ul>
+                <div class="lg:hidden">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <!-- mobile-screen -->
+            
+            <div id="menu" class="hidden bg-gray-500 absolute min-h-screen inset-0 ">
+                <ul class=" h-full grid place-items-center py-20 ">
+                    <li><a href="#home" class="hover:text-color-primary ease-in duration-200 ">Home</a></li>
+                    <li><a href="#products" class="hover:text-color-primary ease-in duration-200 ">Products</a></li>
+                    <li><a href="#sing-up" class="hover:text-color-primary ease-in duration-200 ">Sing up</a></li>
+                    <li><a href="#log-in" class="hover:text-color-primary ease-in duration-200">Log in</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container py-20">
+                <div class="flex flex-col-reverse md:flex-row justify-between items-center">
+                    <div class="md:w-1/2 flex flex-col gap-4 text-center md:text-start">
+                        <h2 class="text-3xl lg:text-4xl 2xl:text-6xl font-bold leading-snug">Start your journey as <span class="text-color-primary">Influencer</span></h2>
+                        <p class="text-lg md:font-semibold text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quisquam, doloremque nihil placeat quos inventore cumque!</p>
+                        <div>
+                            <button class="bg-color-primary py-2 px-6 rounded-full text-white font-medium">Preebook now <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                        </div>
+                    </div>
+                    <div class="bg-hero-bg bg-center bg-contain bg-no-repeat">
+                        <img src="../images/main-camera.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container py-10 md:py-20 md:px-20">
+                <div class="flex items-center md:justify-between flex-wrap justify-center gap-6 p-6 shadow-xl">
+
+                    <img src="../images/logos/Alibaba.svg" alt="" class="w-1/5 lg:w-auto relative bottom-3 lg:bottom-0">
+
+                    <img src="../images/logos/Amazon.svg" alt="" class="w-1/5 lg:w-auto relative top-3">
+
+                    <img src="../images/logos/Daraz.pk Logo.svg" alt="" class="w-1/5 lg:w-auto">
+
+                    <img src="../images/logos/Ebay.svg" alt="" class="w-1/5 lg:w-auto">
+
+                    <img src="../images/logos/Rakuten.svg" alt="" class="w-1/5 lg:w-auto" >
+                    
+                    <img src="../images/logos/Target.svg" alt="" class="w-1/5 lg:w-auto">
+                    
+                    <img src="../images/logos/Walmart.svg" alt="" class="w-1/5 lg:w-auto">
+                    
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div class="container py-10 md:py20 md:px-20 relative">
+                <h3 class="text-3xl text-center font-bold mb-6">Popular Collection</h3>
+                <div class="grid  md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- card one -->
+                    <div class="px-4 py-6 shadow-2xl rounded-lg">
+                        <img src="../images/tripod.png" alt="" class="w-full">
+                        <div class="flex flex-col gap-4" >
+                            <h3 class="text-3xl font-semibold mt-4">Flex Tripod</h3>
+                            <span class="text-2xl">$50.48</span>
+
+                            <p class="text-xl font-semibold text-gray-600">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+
+                    <!-- card two -->
+                    <div class="px-4 py-6 shadow-2xl rounded-lg">
+                        <img src="../images/mic.png" alt="" class="w-full">
+                        <div class="flex flex-col gap-4" >
+                            <h3 class="text-3xl font-semibold mt-4">microphone</h3>
+                            <span class="text-2xl">$120.25</span>
+
+                            <p class="text-xl font-semibold text-gray-600">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+
+                    <!-- card three -->
+                    <div class="px-4 py-6 shadow-2xl rounded-lg">
+                        <img src="../images/airpod.png" alt="" class="w-full">
+                        <div class="flex flex-col gap-4" >
+                            <h3 class="text-3xl font-semibold mt-4">Airbuds</h3>
+                            <span class="text-2xl">$100.00</span>
+
+                            <p class="text-xl font-semibold text-gray-600">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+
+                    <!-- card four -->
+                    <div class="px-4 py-6 shadow-2xl rounded-lg">
+                        <img src="../images/drone.png" alt="" class="w-full">
+                        <div class="flex flex-col gap-4" >
+                            <h3 class="text-3xl font-semibold mt-4">Drone</h3>
+                            <span class="text-2xl">$980.25</span>
+
+                            <p class="text-xl font-semibold text-gray-600">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+
+                    <!-- card five -->
+                    <div class="px-4 py-6 shadow-2xl rounded-lg">
+                        <img src="../images/lights.png" alt="" class="w-full">
+                        <div class="flex flex-col gap-4" >
+                            <h3 class="text-3xl font-semibold mt-4">Light Setup</h3>
+                            <span class="text-2xl">$1200.00</span>
+
+                            <p class="text-xl font-semibold text-gray-600">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+
+                    <!-- card six -->
+                    <div class="px-4 py-6 shadow-2xl rounded-lg">
+                        <img src="../images/setup.png" alt="" class="w-full">
+                        <div class="flex flex-col gap-4" >
+                            <h3 class="text-3xl font-semibold mt-4">Photoshoot set</h3>
+                            <span class="text-2xl">$820.40</span>
+
+                            <p class="text-xl font-semibold text-gray-600">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+
+                    <!-- card Seven -->
+                    <div class="px-4 py-6 shadow-2xl rounded-lg">
+                        <img src="../images/camera.png" alt="" class="w-full">
+                        <div class="flex flex-col gap-4" >
+                            <h3 class="text-3xl font-semibold mt-4">Vlogging Camera</h3>
+                            <span class="text-2xl">$1800.80</span>
+
+                            <p class="text-xl font-semibold text-gray-600">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+
+                    <!-- card Eight -->
+                    <div class="px-4 py-6 shadow-2xl rounded-lg">
+                        <img src="../images/single-light.png" alt="" class="w-full">
+                        <div class="flex flex-col gap-4" >
+                            <h3 class="text-3xl font-semibold mt-4">Green Screen</h3>
+                            <span class="text-2xl">$25.48</span>
+
+                            <p class="text-xl font-semibold text-gray-600">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+
+                    <!-- card 9 -->
+                    <div class="px-4 py-6 shadow-2xl rounded-lg">
+                        <img src="../images/action.png" alt="" class="w-full">
+                        <div class="flex flex-col gap-4" >
+                            <h3 class="text-3xl font-semibold mt-4">Action Camera</h3>
+                            <span class="text-2xl">$380.00</span>
+
+                            <p class="text-xl font-semibold text-gray-600">Wordwide shifting available Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="text-2xl font-bold text-color-primary absolute bottom-0 md:right-20 right-4 inline-block">See More <i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+        </section>
+        <section>
+            <div class="container py-10 md:py-20">
+                <div class="flex flex-col-reverse md:flex-row gap-10 justify-center items-center">
+                    <img src="../images/gear.png" alt="" class="md:w-2/5 lg:w-auto">
+                    <div class="flex flex-col gap-4 text-center md:text-start p-10">
+                        <h2 class="lg:text-4xl text-2xl font-bold">Featured products at one place</h2>
+                        <p class="lg:text-2xl text-lg md:leading-relaxed leading-tight text-gray-600 md:font-bold">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet snit. Velit offica consequate duis enim velit mollit. Exercitation veniom consequate sunt nostrud amet.</p>
+                        <div>
+                            <button class="bg-color-primary py-2 px-6 text-white font-medium">Join now <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="bg-black py-20 flex flex-col justify-center items-center gap-4 text-white">
+            <a href="#" class="text-2xl font-bold text-color-primary">Influencer<span class="text-white">products</span></a>
+            <span>Copyright &copy; 2024 in Influencerproducts</span>
+            <p>All rights reserved</p>
+            <div class="space-x-4">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector("#menu");
+        const faSolid = document.querySelector(".fa-solid");
+
+        hamburger.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+            faSolid.classList.toggle("fa-xmark")
+        })
+    </script>
+</body>
+</html>
